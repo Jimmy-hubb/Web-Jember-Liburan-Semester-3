@@ -166,13 +166,9 @@ Password : admin123
 
 # 📸 Application Preview
 
-Tambahkan screenshot aplikasi pada folder `images`.
+![alt text](https://github.com/Jimmy-hubb/Web-Jember-Liburan-Semester-3/blob/main/pages/WhatsApp%20Image%202026-03-02%20at%2020.05.45.jpeg?raw=true)
 
-```
-![Home Page](images/home.png)
-![Wisata Page](images/wisata.png)
-![Admin Dashboard](images/admin_dashboard.png)
-```
+![alt text](https://github.com/Jimmy-hubb/Web-Jember-Liburan-Semester-3/blob/main/pages/Screenshot%202026-03-06%20162555.png?raw=true)
 
 ---
 
