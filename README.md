@@ -1,12 +1,186 @@
-## Si Jeli
+# 🌐 Si Jeli – Jember Liburan Web
 
-Website Static seputar info tempat wisata untuk daerah Jember
+**Si Jeli (Sistem Informasi Jelajah Liburan Jember)** merupakan aplikasi **berbasis web** yang dikembangkan untuk membantu pengguna menemukan berbagai destinasi wisata di Kabupaten Jember serta melakukan pemesanan layanan wisata secara online.
 
-### Languages and Tools :
+Aplikasi ini menyediakan informasi mengenai berbagai **destinasi wisata, paket liburan, serta sistem pemesanan** yang dapat dilakukan langsung melalui website.
 
-<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
-<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-<img align="left" alt="Bootstrap" width="26px" src="https://camo.githubusercontent.com/a664defdd5c2ec93a3fbfb51e0f2aaafa5dc57bf1e13aa47456ced037b3cebe8/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e302f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67" />
-<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-<img align="left" alt="Jquery" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png" />
+Selain itu, sistem ini juga dilengkapi dengan **panel admin** yang memungkinkan pengelola untuk mengatur data wisata, mengelola pesanan pengguna, serta melihat riwayat transaksi.
+
+Project ini dikembangkan sebagai bagian dari **portfolio pengembangan web developer** serta pembelajaran dalam membangun aplikasi berbasis **PHP dan MySQL**.
+
+---
+
+# 🚀 Features
+
+Beberapa fitur utama dalam aplikasi **Si Jeli Jember Liburan Web** antara lain:
+
+### 🏝️ Daftar Destinasi Wisata
+Menampilkan berbagai destinasi wisata di Kabupaten Jember lengkap dengan informasi dan gambar.
+
+### 📄 Detail Wisata
+Pengguna dapat melihat detail informasi wisata seperti:
+- Nama tempat wisata
+- Deskripsi tempat
+- Gambar destinasi
+- Informasi tambahan mengenai wisata
+
+### 🛒 Sistem Pemesanan
+Pengguna dapat melakukan pemesanan layanan wisata atau paket liburan secara online.
+
+### 📑 Riwayat Pesanan
+Pengguna dapat melihat **history pemesanan** yang telah dilakukan sebelumnya.
+
+### 🔐 Login Admin
+Admin dapat masuk ke dalam sistem melalui halaman login khusus.
+
+### ⚙️ Manajemen Admin
+Admin dapat mengelola berbagai data seperti:
+
+- Mengelola data wisata
+- Mengelola pesanan pengguna
+- Melihat riwayat transaksi
+- Mengelola data pengguna
+
+### 📱 Responsive Design
+Website dapat diakses dengan baik melalui **desktop maupun perangkat mobile**.
+
+---
+
+# 🛠 Tech Stack
+
+Teknologi yang digunakan dalam pengembangan aplikasi ini:
+
+| Technology | Description |
+|-----------|-------------|
+| HTML5 | Struktur halaman website |
+| CSS3 | Styling dan desain tampilan |
+| PHP | Bahasa pemrograman backend |
+| MySQL | Database management system |
+| JavaScript | Interaksi pada website |
+| Bootstrap (Optional) | Framework UI |
+
+---
+
+# ⚙️ Installation
+
+Ikuti langkah berikut untuk menjalankan project secara lokal.
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/username/si-jeli-jember-liburan-web.git
+```
+
+### 2. Masuk ke Folder Project
+
+```bash
+cd si-jeli-jember-liburan-web
+```
+
+### 3. Pindahkan ke Folder Server
+
+Jika menggunakan **Laragon / XAMPP / WAMP**, pindahkan folder project ke:
+
+```
+htdocs
+```
+
+Contoh:
+
+```
+C:\laragon\www\
+```
+
+atau
+
+```
+C:\xampp\htdocs\
+```
+
+---
+
+### 4. Import Database
+
+1. Buka **phpMyAdmin**
+2. Buat database baru
+
+```
+sijeli_db
+```
+
+3. Import file database:
+
+```
+database.sql
+```
+
+---
+
+### 5. Konfigurasi Database
+
+Buka file:
+
+```
+config/database.php
+```
+
+Lalu ubah konfigurasi sesuai dengan database lokal.
+
+Contoh:
+
+```php
+$host = "localhost";
+$user = "root";
+$password = "";
+$database = "sijeli_db";
+```
+
+---
+
+### 6. Jalankan Website
+
+Buka browser dan akses:
+
+```
+http://localhost/si-jeli-jember-liburan-web
+```
+
+---
+
+# 🔑 Admin Access
+
+Untuk masuk ke halaman admin:
+
+```
+http://localhost/si-jeli-jember-liburan-web/admin
+```
+
+Contoh login admin:
+
+```
+Username : admin
+Password : admin123
+```
+
+---
+
+# 📸 Application Preview
+
+Tambahkan screenshot aplikasi pada folder `images`.
+
+```
+![Home Page](images/home.png)
+![Wisata Page](images/wisata.png)
+![Admin Dashboard](images/admin_dashboard.png)
+```
+
+---
+
+# 🎯 Project Goals
+
+Tujuan utama dari pengembangan aplikasi ini:
+
+- Menyediakan informasi wisata di Kabupaten Jember secara digital
+- Mempermudah pengguna dalam melakukan pemesanan layanan wisata
+- Membantu admin dalam mengelola data wisata dan pesanan
+- Mengembangkan keterampilan dalam pengembangan aplikasi web berbasis PHP
